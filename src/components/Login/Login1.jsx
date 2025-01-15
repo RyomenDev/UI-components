@@ -2,7 +2,10 @@ import "./style.css";
 
 const Login1 = () => {
   return (
-    <section className="relative flex flex-wrap justify-center items-center w-screen h-screen bg-black overflow-hidden border-4 border-red-500">
+    <>
+     {/* <section className="relative w-screen h-screen flex justify-center items-center gap-8 bg-black overflow-hidden"> */}
+    <section className="relative w-screen h-screen flex justify-center items-center gap-2 flex-wrap bg-gradient-to-b from-black via-green-900 to-black overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-green-500 to-black animate-[bg-shift_5s_linear_infinite]"></div>
       {Array.from({ length: 200 }).map((_, index) => (
         <span
           key={index}
@@ -54,6 +57,7 @@ const Login1 = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
