@@ -1,8 +1,8 @@
-import React from "react";
+import "./style.css";
 
 const Login1 = () => {
   return (
-    <section className="relative flex flex-wrap justify-center items-center w-screen h-screen bg-black overflow-hidden">
+    <section className="relative flex flex-wrap justify-center items-center w-screen h-screen bg-black overflow-hidden border-4 border-red-500">
       {Array.from({ length: 200 }).map((_, index) => (
         <span
           key={index}
