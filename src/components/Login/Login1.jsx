@@ -1,64 +1,79 @@
-import "./style.css";
-
-const Login1 = () => {
+const Login = () => {
   return (
     <>
-     {/* <section className="relative w-screen h-screen flex justify-center items-center gap-8 bg-black overflow-hidden"> */}
-    <section className="relative w-screen h-screen flex justify-center items-center gap-2 flex-wrap bg-gradient-to-b from-black via-green-900 to-black overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-green-500 to-black animate-[bg-shift_5s_linear_infinite]"></div>
-      {Array.from({ length: 200 }).map((_, index) => (
-        <span
-          key={index}
-          className="relative block w-[6.25vw] h-[6.25vw] bg-[#181818] transition-all duration-[1.5s] hover:bg-green-500 sm:w-[10vw] sm:h-[10vw] xs:w-[20vw] xs:h-[20vw]"
-        ></span>
-      ))}
+      <section className="relative flex flex-wrap justify-center items-center  gap-0.5 w-full h-screen overflow-hidden">
+        {/* Background animation */}
+        {/* <div className="absolute inset-0 bg-gradient-to-b from-black via-green-500 to-black animate-slide" /> */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-green-500 to-black bg-gradient-size animate-slide" />
 
-      <div className="absolute w-[400px] p-10 flex flex-col justify-center items-center rounded shadow-lg z-10 bg-black">
-        <div className="w-full flex flex-col items-center gap-10">
-          <h2 className="text-2xl text-green-500 uppercase font-bold">
-            Sign In
-          </h2>
-          <form className="w-full flex flex-col gap-6">
-            <div className="relative w-full">
-              <input
-                type="text"
-                required
-                placeholder="Username"
-                className="w-full bg-gray-800 border-none outline-none py-6 px-3 rounded text-white font-medium text-lg placeholder-gray-400"
-              />
-            </div>
-            <div className="relative w-full">
-              <input
-                type="password"
-                required
-                placeholder="Password"
-                className="w-full bg-gray-800 border-none outline-none py-6 px-3 rounded text-white font-medium text-lg placeholder-gray-400"
-              />
-            </div>
-            <div className="flex justify-between text-white">
-              <a href="#" className="hover:underline">
-                Forgot Password
-              </a>
-              <a
-                href="#"
-                className="font-semibold text-green-500 hover:underline"
-              >
-                Signup
-              </a>
-            </div>
-            <div>
-              <input
-                type="submit"
-                value="Login"
-                className="w-full py-2 bg-green-500 text-black font-semibold text-xl rounded cursor-pointer hover:opacity-80"
-              />
-            </div>
-          </form>
+        {/* Grid spans */}
+        {Array.from({ length: 200 }).map((_, index) => (
+          <span
+            key={index}
+            className="relative block w-[calc(6.25vw_-_2px)] h-[calc(6.25vw_-_2px)] bg-[#181818] transition-colors duration-[1.5s] hover:bg-green-500"
+          ></span>
+        ))}
+
+        {/* Sign-in form */}
+        <div className=" absolute w-[400px] p-10 rounded-lg shadow-lg bg-black z-10">
+          <div className="flex flex-col items-center gap-10">
+            <h2 className="text-2xl font-bold uppercase text-green-500">
+              Sign In
+            </h2>
+
+            <form className="w-full flex flex-col gap-6">
+              {/* Username input */}
+              <div className="relative w-full">
+                <input
+                  type="text"
+                  required
+                  className="w-full px-3 py-6 bg-gray-800 text-white rounded-md outline-none focus:ring-2 focus:ring-green-500"
+                />
+                <label className="absolute top-1/2 left-3 transform -translate-y-1/2 text-gray-400 pointer-events-none transition-all duration-300 focus-within:translate-y-[-10px] focus-within:text-sm focus-within:text-white">
+                  Username
+                </label>
+              </div>
+
+              {/* Password input */}
+              <div className="relative w-full">
+                <input
+                  type="password"
+                  required
+                  className="w-full px-3 py-6 bg-gray-800 text-white rounded-md outline-none focus:ring-2 focus:ring-green-500"
+                />
+                <label className="absolute top-1/2 left-3 transform -translate-y-1/2 text-gray-400 pointer-events-none transition-all duration-300 focus-within:translate-y-[-10px] focus-within:text-sm focus-within:text-white">
+                  Password
+                </label>
+              </div>
+
+              {/* Links */}
+              <div className="flex justify-between text-sm">
+                <a href="#" className="text-gray-400 hover:text-white">
+                  Forgot Password
+                </a>
+                <a
+                  href="#"
+                  className="font-semibold text-green-500 hover:text-green-400"
+                >
+                  Signup
+                </a>
+              </div>
+
+              {/* Submit button */}
+              <div>
+                <button
+                  type="submit"
+                  className="w-full py-3 bg-green-500 text-black font-semibold text-lg rounded-md hover:bg-green-600"
+                >
+                  Login
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   );
 };
 
-export default Login1;
+export default Login;

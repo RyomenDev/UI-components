@@ -1,6 +1,6 @@
-import "./style.css";
+// import "./style.css";
 
-const Login1 = () => {
+const Login = () => {
   return (
     <>
       <section className="">
@@ -36,4 +36,4 @@ const Login1 = () => {
   );
 };
 
-export default Login1;
+export default Login;
