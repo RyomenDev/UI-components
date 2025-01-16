@@ -1,17 +1,19 @@
 const Login = () => {
   return (
     <>
-      <section className="absolute flex flex-wrap justify-center items-center  gap-1 w-full h-screen overflow-hidden bg-black border-[2px] border-[#0f0] ">
+      <section className="absolute flex w-full h-screen overflow-hidden bg-black border-[2px] border-[#0f0] ">
         {/* Background animation */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#000] via-[#0f0] to-[#000] bg-gradient-size animate-slide" />
 
         {/* Grid spans */}
-        {Array.from({ length: 200 }).map((_, index) => (
-          <span
-            key={index}
-            className="relative block w-[calc(6.25vw_-_2px)] h-[calc(6.25vw_-_2px)] bg-[#181818] transition-colors duration-[1.5s] hover:bg-[#0f0]"
-          ></span>
-        ))}
+        <div className=" flex flex-wrap justify-center gap-2">
+          {Array.from({ length: 200 }).map((_, index) => (
+            <span
+              key={index}
+              className="relative block w-[calc(6.14vw_-_2px)] h-[calc(6.25vw_-_2px)] overflow-hidden bg-[#181818] transition-colors duration-[1.5s] hover:bg-[#0f0]"
+            ></span>
+          ))}
+        </div>
 
         {/* Sign-in form */}
         <div className=" absolute w-[400px] p-10 rounded-lg shadow-lg bg-black z-10">

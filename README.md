@@ -1,8 +1,4 @@
-# React + Vite
+### Login 1 (tailwind + vite.config) & Login 2 (external css)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Logn1](https://github.com/user-attachments/assets/92775a5c-f904-45a0-b62e-4d4790013418)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
