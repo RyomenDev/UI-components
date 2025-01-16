@@ -1,11 +1,11 @@
-import { Login1, Login2 } from "./components";
+import { Login1A, Login1B } from "./components";
 
 function App() {
   return (
     <>
-      <Login1 />
-      {/* <Login2 /> */}
-      {/* <Login3/> */}
+      <Login1A />
+      {/* <Login1B /> */}
+      {/* <Login2A/> */}
     </>
   );
 }

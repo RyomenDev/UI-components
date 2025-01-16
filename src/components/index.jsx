@@ -1,4 +1,4 @@
-import Login1 from "./Login/Login1"
-import Login2 from "./Login/Login2"
+import Login1A from "./Login/Login1/Login1A"
+import Login1B from "./Login/Login1/Login1B"
 
-export { Login1, Login2 };
+export { Login1A, Login1B };
