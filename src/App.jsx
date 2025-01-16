@@ -1,4 +1,4 @@
-import { Login1, Login2, Login3 } from "./components";
+import { Login1, Login2 } from "./components";
 
 function App() {
   return (

@@ -1,16 +1,15 @@
 const Login = () => {
   return (
     <>
-      <section className="relative flex flex-wrap justify-center items-center  gap-0.5 w-full h-screen overflow-hidden">
+      <section className="absolute flex flex-wrap justify-center items-center  gap-1 w-full h-screen overflow-hidden bg-black border-[2px] border-[#0f0] ">
         {/* Background animation */}
-        {/* <div className="absolute inset-0 bg-gradient-to-b from-black via-green-500 to-black animate-slide" /> */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-green-500 to-black bg-gradient-size animate-slide" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#000] via-[#0f0] to-[#000] bg-gradient-size animate-slide" />
 
         {/* Grid spans */}
         {Array.from({ length: 200 }).map((_, index) => (
           <span
             key={index}
-            className="relative block w-[calc(6.25vw_-_2px)] h-[calc(6.25vw_-_2px)] bg-[#181818] transition-colors duration-[1.5s] hover:bg-green-500"
+            className="relative block w-[calc(6.25vw_-_2px)] h-[calc(6.25vw_-_2px)] bg-[#181818] transition-colors duration-[1.5s] hover:bg-[#0f0]"
           ></span>
         ))}
 
