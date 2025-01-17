@@ -10,7 +10,7 @@ const Cards = ({ coverImage, titleImage, characterImage }) => {
   return (
     <>
       <a href="#">
-        <div className="relative flex justify-center items-end px-9 perspective-[2500px] mx-12 rounded-md w-[200px] h-[300px] group transition-all">
+        <div className="relative flex justify-center items-end px-9 perspective-[2500px] mx-12 rounded-md w-[200px] h-[300px] group transition-all hover:w-[calc(300px/1.5)] ">
           <div className="absolute inset-0 w-full h-full bg-cover bg-center rounded-md transition-transform duration-500 group-hover:perspective-[900px] group-hover:translate-y-[-5%] group-hover:rotate-x-[25deg] group-hover:shadow-[2px_35px_32px_-8px_rgba(0,0,0,0.75)]">
             <img
               src={coverImage}
@@ -21,7 +21,7 @@ const Cards = ({ coverImage, titleImage, characterImage }) => {
           <img
             src={titleImage}
             alt="Title"
-            className="absolute top-0 left-0 w-full transition-transform duration-500 group-hover:translate-y-[-50px] group-hover:translate-z-[100px]"
+            className="absolute bottom-0 left-0 w-full transition-transform duration-500 group-hover:translate-y-[-50px] z-1000"
           />
           <img
             src={characterImage}
@@ -30,6 +30,7 @@ const Cards = ({ coverImage, titleImage, characterImage }) => {
           />
         </div>
       </a>
+
       <a href="#">
         <div
           className="relative w-[calc(300px/1.5)] h-[300px] flex justify-center items-end px-9 rounded-md transform"
