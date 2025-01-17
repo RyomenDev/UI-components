@@ -1,3 +1,4 @@
+import { useState } from "react";
 import PropTypes from "prop-types";
 import dark_rider_cover from "./dark_rider-cover.jpg";
 import dark_rider_title from "./dark_rider-title.png";
@@ -7,11 +8,40 @@ import force_mage_title from "./force_mage-title.png";
 import force_mage_character from "./force_mage-character.webp";
 
 const Cards = ({ coverImage, titleImage, characterImage }) => {
+  const [isHovered, setIsHovered] = useState(false);
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
     <>
-      <a href="#">
-        <div className="relative flex justify-center items-end px-9 perspective-[2500px] mx-12 rounded-md w-[200px] h-[300px] group transition-all hover:w-[calc(300px/1.5)] ">
-          <div className="absolute inset-0 w-full h-full bg-cover bg-center rounded-md transition-transform duration-500 group-hover:perspective-[900px] group-hover:translate-y-[-5%] group-hover:rotate-x-[25deg] group-hover:shadow-[2px_35px_32px_-8px_rgba(0,0,0,0.75)]">
+      <a
+        href="#"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        className=""
+      >
+        <div
+          className="relative w-[calc(300px/1.5)] h-[300px] flex justify-center items-end px-9 rounded-md transform  group transition-all"
+          style={{ transition: "all 0.5s", perspective: "2500px" }}
+        >
+          <div
+            className="absolute bg-cover z-[-1]"
+            style={
+              isHovered
+                ? {
+                    transition: "all 0.5s ",
+                    transform:
+                      "perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0)",
+                    boxShadow: "2px 35px 32px -8px rgba(0, 0, 0, 0.75)",
+                  }
+                : {}
+            }
+          >
             <img
               src={coverImage}
               alt="Cover"
@@ -21,17 +51,20 @@ const Cards = ({ coverImage, titleImage, characterImage }) => {
           <img
             src={titleImage}
             alt="Title"
-            className="absolute bottom-0 left-0 w-full transition-transform duration-500 group-hover:translate-y-[-50px] z-1000"
+            className=" w-full transition-transform duration-500
+            group-hover:translate-x-[0%]
+            group-hover:translate-y-[-50%] group-hover:translate-z-[100px]
+            "
           />
           <img
             src={characterImage}
             alt="Character"
-            className="absolute bottom-0 opacity-0 transition-opacity transform duration-500 group-hover:opacity-100 group-hover:translate-y-[-30%] group-hover:translate-z-[100px]"
+            className="absolute transform duration-500 opacity-0 z-[-1] group-hover:opacity-100 group-hover:translate-x-[0%] group-hover:translate-y-[-30%] group-hover:translate-z-[100px]"
           />
         </div>
       </a>
 
-      <a href="#">
+      {/* <a href="#">
         <div
           className="relative w-[calc(300px/1.5)] h-[300px] flex justify-center items-end px-9 rounded-md transform"
           style={{ transition: "all 0.5s" }}
@@ -69,7 +102,7 @@ const Cards = ({ coverImage, titleImage, characterImage }) => {
             }}
           />
         </div>
-      </a>
+      </a> */}
     </>
   );
 };

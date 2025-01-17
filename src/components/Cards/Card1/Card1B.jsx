@@ -1,4 +1,4 @@
-// import "./style.css";
+import "./style.css";
 import PropTypes from "prop-types";
 import dark_rider_cover from "./dark_rider-cover.jpg";
 import dark_rider_title from "./dark_rider-title.png";
