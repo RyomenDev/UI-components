@@ -1,4 +1,12 @@
-import { Login1A, Login1B, Login2A, Login2B, Card1B } from "./components";
+import {
+  Login1A,
+  Login1B,
+  Login2A,
+  Login2B,
+  //
+  Card1A,
+  Card1B,
+} from "./components";
 
 function App() {
   return (
@@ -8,7 +16,8 @@ function App() {
       {/* <Login2A/> */}
       {/* <Login2B/> */}
 
-      <Card1B />
+      <Card1A />
+      {/* <Card1B /> */}
     </>
   );
 }

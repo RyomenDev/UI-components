@@ -1,4 +1,4 @@
-import "./style.css"
+// import "./style.css";
 import PropTypes from "prop-types";
 import dark_rider_cover from "./dark_rider-cover.jpg";
 import dark_rider_title from "./dark_rider-title.png";
@@ -12,22 +12,10 @@ const Cards = ({ coverImage, titleImage, characterImage }) => {
     <a href="#">
       <div className="card">
         <div className="wrapper">
-          <img
-            src={coverImage}
-            alt="Cover"
-            className="cover-image"
-          />
+          <img src={coverImage} alt="Cover" className="cover-image" />
         </div>
-        <img
-          src={titleImage}
-          alt="Title"
-          className="title"
-        />
-        <img
-          src={characterImage}
-          alt="Character"
-          className="character"
-        />
+        <img src={titleImage} alt="Title" className="title" />
+        <img src={characterImage} alt="Character" className="character" />
       </div>
     </a>
   );
@@ -42,7 +30,7 @@ Cards.propTypes = {
 const Card = () => {
   return (
     <>
-      <div className="flex flex-wrap justify-center gap-6 p-6 bg-gray-100 min-h-screen">
+      <div className="flex flex-wrap justify-center items-center gap-6 p-6 bg-gray-100 min-h-screen">
         <Cards
           coverImage={dark_rider_cover}
           titleImage={dark_rider_title}
