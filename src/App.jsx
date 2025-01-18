@@ -9,6 +9,7 @@ import {
   //
   Button1A,
   Button1B,
+  Button2B,
 } from "./components";
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
       {/* <Card1A /> */}
       {/* <Card1B /> */}
 
-      <Button1A />
+      {/* <Button1A /> */}
       {/* <Button1B /> */}
+      <Button2B/>
     </>
   );
 }
