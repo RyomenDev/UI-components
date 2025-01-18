@@ -12,16 +12,19 @@ const Button = () => {
 
   return (
     <div className="h-screen flex justify-center items-center bg-[#151f28]">
-      <div className="flex justify-center">
+      <div className="flex justify-center items-center">
         <a
-          className="flex items-center px-12 py-4 text-5xl text-white bg-[#6225E6] transform skew-x-[-15deg] transition duration-500 ease-in-out shadow-[6px_6px_0px_black] hover:shadow-[10px_10px_0px_#FBC638]"
+          className="flex items-center justify-center px-12 py-4 text-5xl text-white bg-[#6225E6] transform skew-x-[-15deg] transition duration-1000 ease-in-out shadow-[6px_6px_0px_black] hover:shadow-[10px_10px_0px_#FBC638] "
           href="#"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <span className="font-bold skew-x-[-15deg]">NEXT</span>
-          {/* <span className="ml-8 relative top-[12%] transform skew-x-[15deg] w-[20px] transition duration-1000 ease-in-out animate-color_anim"> */}
-          <span className="relative hover:mr-11 top-[12%] transform skew-x-[15deg] w-[20px] transition duration-1000 ease-in-out animate-color_anim">
+          <span className="font-bold skew-x-[-10deg]">NEXT</span>
+          <span
+            className={` relative transform skew-x-[15deg]  transition duration-1000 ease-in-out  ${
+              isHovered ? "mr-11 " : "mr-0"
+            }`}
+          >
             <svg
               width="66px"
               height="43px"
@@ -39,7 +42,7 @@ const Button = () => {
                   fill="#FFFFFF"
                 ></path>
                 <path
-                  className={` transition-all duration-400 transform  ${
+                  className={` transition-all duration-500 transform  ${
                     isHovered
                       ? "animate-color_anim2 translate-x-[0%]"
                       : "translate-x-[-30%]"
@@ -48,9 +51,7 @@ const Button = () => {
                   fill="#FFFFFF"
                 ></path>
                 <path
-                  className={` transition-all duration-400 transform  ${
-                    isHovered ? "animate-color_anim3" : ""
-                  } `}
+                  className={`  ${isHovered ? "animate-color_anim3" : ""} `}
                   d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
                   fill="#FFFFFF"
                 ></path>
