@@ -6,6 +6,8 @@ import {
   //
   Card1A,
   Card1B,
+  //
+  Button1B,
 } from "./components";
 
 function App() {
@@ -16,8 +18,10 @@ function App() {
       {/* <Login2A/> */}
       {/* <Login2B/> */}
 
-      <Card1A />
+      {/* <Card1A /> */}
       {/* <Card1B /> */}
+
+      <Button1B />
     </>
   );
 }

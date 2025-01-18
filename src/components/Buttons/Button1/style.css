@@ -3,14 +3,14 @@
 * {
   box-sizing: border-box;
 }
-
+/* 
 body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #151F28;
-}
+} */
 
 .wrapper {
   display: flex;
