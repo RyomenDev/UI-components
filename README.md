@@ -23,4 +23,9 @@
   <img src="https://github.com/user-attachments/assets/c6f45b64-9bed-4fde-8f9d-271c14d52309" alt="Image" />
 </p>
 
+### Button2A (Tailwind) & Button2B (External CSS) - Animated
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/934bdca3-4b1a-4818-b7f7-9e64fb0b336e" alt="Image" />
+</p>
+
 

@@ -1,5 +1,4 @@
-
-// import "./style.css";
+import "./style.css";
 
 const Button = () => {
   return (
