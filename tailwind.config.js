@@ -5,16 +5,29 @@ export default {
     extend: {
       animation: {
         slide: "gradient-slide 5s linear infinite",
+        color_anim1: "color_anim 1s infinite 0.6s",
+        color_anim2: "color_anim 1s infinite 0.4s",
+        color_anim3: "color_anim 1s infinite 0.2s",
       },
       keyframes: {
-        // "gradient-slide": {
-        //     "0%": { "background-position": "0% 0%" },
-        //     "50%": { "background-position": "50% 50%" },
-        //     "100%": { "background-position": "100% 100%" },
-        // },
         "gradient-slide": {
           "0%": { transform: "translateY(-100%)" },
           "100%": { transform: "translateY(100%)" },
+        },
+        color_anim1: {
+          "0%": { fill: "white" },
+          "50%": { fill: "#FBC638" },
+          "100%": { fill: "white" },
+        },
+        color_anim2: {
+          "0%": { fill: "white" },
+          "50%": { fill: "#FBC638" },
+          "100%": { fill: "white" },
+        },
+        color_anim3: {
+          "0%": { fill: "white" },
+          "50%": { fill: "#FBC638" },
+          "100%": { fill: "white" },
         },
       },
       backgroundSize: {
