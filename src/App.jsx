@@ -25,7 +25,7 @@ function App() {
 
       {/* <Button1A /> */}
       {/* <Button1B /> */}
-      <Button2B/>
+      <Button2B />
     </>
   );
 }
