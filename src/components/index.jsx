@@ -9,15 +9,19 @@ import Card1B from "./Cards/Card1/Card1B";
 import Button1A from "./Buttons/Button1/Button1A.jsx";
 import Button1B from "./Buttons/Button1/Button1B.jsx";
 import Button2B from "./Buttons/Button2/Button2B.jsx";
+import Button2A from "./Buttons/Button2/Button2A.jsx";
 
 export {
   Login1A,
   Login1B,
   Login2B,
   Login2A,
+  //
   Card1A,
   Card1B,
+  //
   Button1A,
   Button1B,
+  Button2A,
   Button2B,
 };
