@@ -12,7 +12,7 @@ import Button2B from "./Buttons/Button2/Button2B.jsx";
 import Button2A from "./Buttons/Button2/Button2A.jsx";
 //
 import LineAreaChart from "./Graphs/LineAreaChart.jsx";
-// import DonutChart from "./Graphs/DonutChart.jsx";
+import DonutChart from "./Graphs/DonutChart.jsx";
 
 export {
   Login1A,
@@ -29,5 +29,5 @@ export {
   Button2B,
   //
   LineAreaChart,
-//   DonutChart,
+  DonutChart,
 };

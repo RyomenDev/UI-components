@@ -13,7 +13,7 @@ import {
   Button2B,
   //
   LineAreaChart,
-//   DonutChart,
+  DonutChart,
 } from "./components";
 
 function App() {
@@ -32,8 +32,8 @@ function App() {
       {/* <Button2A /> */}
       {/* <Button2B /> */}
 
-      <LineAreaChart />
-      {/* <DonutChart /> */}
+      {/* <LineAreaChart /> */}
+      <DonutChart />
     </>
   );
 }
