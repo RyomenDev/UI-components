@@ -14,6 +14,7 @@ import Button2A from "./Buttons/Button2/Button2A.jsx";
 import LineAreaChart from "./Graphs/LineAreaChart.jsx";
 import DonutChart from "./Graphs/DonutChart.jsx";
 import GradientLineChart from "./Graphs/GradientLineChart.jsx";
+import HorizontalBarChart from "./Graphs/HorizontalBarChart.jsx";
 
 export {
   Login1A,
@@ -32,4 +33,5 @@ export {
   LineAreaChart,
   DonutChart,
   GradientLineChart,
+  HorizontalBarChart,
 };

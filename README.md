@@ -45,3 +45,5 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a865c2ba-fd2b-4b2c-ad1f-7b79bf8a9cbd" alt="Image" />
 </p>
+
+### HorizontalBarChart
