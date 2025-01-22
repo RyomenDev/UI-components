@@ -51,3 +51,8 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/93b7af3e-5b4c-45f3-b675-665bf80365de" alt="Image" />
 </p>
+
+### LineChart
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8bde5151-89c6-403d-8e06-b1ede477b6a4" alt="Image" />
+</p>
