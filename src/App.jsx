@@ -16,6 +16,7 @@ import {
   DonutChart,
   GradientLineChart,
   HorizontalBarChart,
+  LineChart,
 } from "./components";
 
 function App() {
@@ -37,7 +38,8 @@ function App() {
       {/* <LineAreaChart /> */}
       {/* <DonutChart /> */}
       {/* <GradientLineChart /> */}
-      <HorizontalBarChart />
+      {/* <HorizontalBarChart /> */}
+      <LineChart />
     </>
   );
 }
