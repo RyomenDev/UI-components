@@ -56,3 +56,8 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/8bde5151-89c6-403d-8e06-b1ede477b6a4" alt="Image" />
 </p>
+
+### LineChartCurve
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/69df9f28-2367-453e-a207-d29c6882d3e2" alt="Image" />
+</p>
