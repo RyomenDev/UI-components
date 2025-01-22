@@ -16,6 +16,7 @@ import DonutChart from "./Graphs/DonutChart.jsx";
 import GradientLineChart from "./Graphs/GradientLineChart.jsx";
 import HorizontalBarChart from "./Graphs/HorizontalBarChart.jsx";
 import LineChart from "./Graphs/LineChart.jsx";
+import LineChartCurve from "./Graphs/LineChartCurve.jsx";
 
 export {
   Login1A,
@@ -36,4 +37,5 @@ export {
   GradientLineChart,
   HorizontalBarChart,
   LineChart,
+  LineChartCurve,
 };
