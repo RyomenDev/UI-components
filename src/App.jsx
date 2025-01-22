@@ -11,6 +11,8 @@ import {
   Button1B,
   Button2A,
   Button2B,
+  //
+  Graph1,
 } from "./components";
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
       {/* <Button1B /> */}
       {/* <Button2A /> */}
       {/* <Button2B /> */}
+
+      <Graph1 />
     </>
   );
 }
