@@ -29,3 +29,10 @@
 </p>
 
 
+# <u>Graphs</u>
+
+### AreaChart
+<!-- ![Image](https://github.com/user-attachments/assets/6c13fa2d-fb53-43d6-adbe-7d5b491a57c7) -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6c13fa2d-fb53-43d6-adbe-7d5b491a57c7" alt="Image" />
+</p>
