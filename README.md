@@ -46,4 +46,8 @@
   <img src="https://github.com/user-attachments/assets/a865c2ba-fd2b-4b2c-ad1f-7b79bf8a9cbd" alt="Image" />
 </p>
 
+
 ### HorizontalBarChart
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/93b7af3e-5b4c-45f3-b675-665bf80365de" alt="Image" />
+</p>
