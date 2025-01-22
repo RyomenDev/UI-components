@@ -40,3 +40,8 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/00096ab8-df32-40e5-b48c-950db04f326b" alt="Image" />
 </p>
+
+### GradientLineChart
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a865c2ba-fd2b-4b2c-ad1f-7b79bf8a9cbd" alt="Image" />
+</p>
