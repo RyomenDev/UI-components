@@ -14,6 +14,7 @@ import {
   //
   LineAreaChart,
   DonutChart,
+  GradientLineChart,
 } from "./components";
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
       {/* <Button2B /> */}
 
       {/* <LineAreaChart /> */}
-      <DonutChart />
+      {/* <DonutChart /> */}
+      <GradientLineChart />
     </>
   );
 }
