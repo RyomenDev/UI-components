@@ -31,7 +31,12 @@
 
 # <u>Graphs</u>
 
-### AreaChart
+### LineAreaChart
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6c13fa2d-fb53-43d6-adbe-7d5b491a57c7" alt="Image" />
+</p>
+
+### DonutChart
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/00096ab8-df32-40e5-b48c-950db04f326b" alt="Image" />
 </p>
