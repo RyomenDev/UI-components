@@ -28,6 +28,10 @@
   <img src="https://github.com/user-attachments/assets/934bdca3-4b1a-4818-b7f7-9e64fb0b336e" alt="Image" />
 </p>
 
+### Button-Hovering (Tailwind) & (External CSS)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5396227a-3eb0-452d-9b12-5b31c55f21a9" alt="Image" />
+</p>
 
 # <u>Graphs</u>
 
@@ -61,3 +65,4 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/69df9f28-2367-453e-a207-d29c6882d3e2" alt="Image" />
 </p>
+
