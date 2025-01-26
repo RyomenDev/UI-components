@@ -14,18 +14,19 @@ const Button = () => {
             style={{
               content: "",
               position: "absolute",
-              top: "-10px",
+              top: "90%",
               left: "3%",
               width: "95%",
               height: "40%",
-              backgroundColor: "#151F28",
+              backgroundColor: "#ffffff",
               transition: "0.5s",
               transformOrigin: "center",
+              border:"4px solid "
             }}
           /> */}
-          <span className="border-4 border-red-500 content-[''] absolute top-[90%] left-[3%] w-[95%] h-[40%] bg-white transform origin-center transition-transform duration-500 group-hover:scale-0 " />
+          {/* <span className=" content-[''] absolute top-[90%] left-[3%] w-[95%] h-[40%] bg-white transform origin-center transition-transform duration-500 group-hover:scale-0 overflow-visible" /> */}
           {/* After pseudo-element */}
-          <span className="border-4 border-blue-400 content-[''] absolute top-[-15px] left-[3%] w-[95%] h-[40%] bg-[#151F28] transform origin-center transition-transform duration-500 group-hover:scale-0" />
+          {/* <span className="border-4 border-blue-400 content-[''] absolute top-[-15px] left-[3%] w-[95%] h-[40%] bg-[#151F28] transform origin-center transition-transform duration-500 group-hover:scale-0" /> */}
         </button>
       </div>
     </>
