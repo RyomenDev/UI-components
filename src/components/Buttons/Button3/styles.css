@@ -1,3 +1,11 @@
+.mainDiv {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151F28;
+    height: 100vh;
+}
 
 button {
     width: 10em;
