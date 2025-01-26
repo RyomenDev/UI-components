@@ -8,7 +8,10 @@ const Button = () => {
           //   style={{ boxShadow: "inset 0 0 25px rgba(255, 0, 0, 0.5)" }}
         >
           Hover me
-          <span className="absolute top-[-10px] left-[3%] w-[95%] h-[40%] bg-[#151F28] origin-center scale-0 group-hover:scale-100 transition-transform duration-500 after:content-['']"></span>
+          {/* Before pseudo-element */}
+          <span className="content-[''] absolute top-[80%] left-[3%] w-[95%] h-[40%] bg-[#151F28] transform origin-center transition-transform duration-500 group-hover:scale-0" />
+          {/* After pseudo-element */}
+          <span className="content-[''] absolute top-[-15px] left-[3%] w-[95%] h-[40%] bg-[#151F28] transform origin-center transition-transform duration-500 group-hover:scale-0" />
         </button>
       </div>
     </>
