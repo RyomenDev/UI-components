@@ -1,5 +1,10 @@
-import "./styles.css"
+import "./styles.css";
+
 const Button = () => {
-  return <button>Hover me</button>;
-}
+  return (
+    <div>
+      <button>Hover me</button>
+    </div>
+  );
+};
 export default Button;
