@@ -1,4 +1,4 @@
-import "./styles.css";
+// import "./styles.css";
 
 const Button = () => {
   return (
@@ -13,7 +13,7 @@ const Button = () => {
           y="0px"
           viewBox="0 0 234.6 61.3"
           preserveAspectRatio="none"
-          xml:space="preserve"
+          xmlSpace="preserve"
         >
           <filter id="glow">
             <feGaussianBlur
