@@ -28,9 +28,14 @@
   <img src="https://github.com/user-attachments/assets/934bdca3-4b1a-4818-b7f7-9e64fb0b336e" alt="Image" />
 </p>
 
-### Button-Hovering (Tailwind) & (External CSS)
+### Button3 -Hovering (Tailwind) & (External CSS)
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5396227a-3eb0-452d-9b12-5b31c55f21a9" alt="Image" />
+</p>
+
+### Button3: Voltage Animation
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/87fe0c09-45ae-4896-8e55-d15dc7fe7c04" alt="Image" />
 </p>
 
 # <u>Graphs</u>
