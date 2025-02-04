@@ -1,4 +1,3 @@
-
 import {
   Chart as ChartJS,
   RadialLinearScale,
@@ -37,7 +36,15 @@ export const data = {
 // }
 
 const RadarChart = () => {
-  return <Radar data={data} />;
+  return (
+    <>
+      <div className="flex flex-col h-screen justify-center items-center border-4">
+        <div className=" w-2/3 h-2/3">
+          <Radar data={data} />
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default RadarChart;
