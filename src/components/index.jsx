@@ -20,7 +20,7 @@ import GradientLineChart from "./Graphs/GradientLineChart.jsx";
 import HorizontalBarChart from "./Graphs/HorizontalBarChart.jsx";
 import LineChart from "./Graphs/LineChart.jsx";
 import LineChartCurve from "./Graphs/LineChartCurve.jsx";
-import RadarChart from "./Graphs/RadarChart.jsx";
+import {RadarChart} from "./Graphs/RadarChart.jsx";
 
 export {
   Login1A,
