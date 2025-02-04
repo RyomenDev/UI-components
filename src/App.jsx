@@ -21,6 +21,7 @@ import {
   HorizontalBarChart,
   LineChart,
   LineChartCurve,
+  RadarChart,
 } from "./components";
 
 function App() {
@@ -30,25 +31,23 @@ function App() {
       {/* <Login1B /> */}
       {/* <Login2A/> */}
       {/* <Login2B/> */}
-
       {/* <Card1A /> */}
       {/* <Card1B /> */}
-
       {/* <Button1A /> */}
       {/* <Button1B /> */}
       {/* <Button2A /> */}
       {/* <Button2B /> */}
       {/* <Button3A /> */}
       {/* <Button3B /> */}
-      <Button4/>
+      {/* <Button4 /> */}
       {/* <Button4B /> */}
-
       {/* <LineAreaChart /> */}
       {/* <DonutChart /> */}
       {/* <GradientLineChart /> */}
       {/* <HorizontalBarChart /> */}
       {/* <LineChart /> */}
       {/* <LineChartCurve /> */}
+      <RadarChart />
     </>
   );
 }
