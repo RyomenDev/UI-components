@@ -22,6 +22,7 @@ import {
   LineChart,
   LineChartCurve,
   RadarChart,
+  PolarAreaChart,
 } from "./components";
 
 function App() {
@@ -47,7 +48,8 @@ function App() {
       {/* <HorizontalBarChart /> */}
       {/* <LineChart /> */}
       {/* <LineChartCurve /> */}
-      <RadarChart />
+      {/* <RadarChart /> */}
+      <PolarAreaChart />
     </>
   );
 }

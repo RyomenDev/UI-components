@@ -37,7 +37,7 @@ const PolarAreaChart = () => {
   return (
     <>
       <div className="flex flex-col h-screen justify-center items-center border-4 bg-slate-50">
-        <div className=" w-2/3 h-2/3">
+        <div className=" w-1/3 h-2/3">
           <PolarArea data={data} />;
         </div>
       </div>
