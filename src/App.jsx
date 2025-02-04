@@ -13,8 +13,7 @@ import {
   Button2B,
   Button3A,
   Button3B,
-  Button4A,
-  Button4B,
+  Button4,
   //
   LineAreaChart,
   DonutChart,
@@ -41,7 +40,7 @@ function App() {
       {/* <Button2B /> */}
       {/* <Button3A /> */}
       {/* <Button3B /> */}
-      <Button4A />
+      <Button4/>
       {/* <Button4B /> */}
 
       {/* <LineAreaChart /> */}

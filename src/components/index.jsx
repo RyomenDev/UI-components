@@ -12,8 +12,7 @@ import Button2B from "./Buttons/Button2/Button2B.jsx";
 import Button2A from "./Buttons/Button2/Button2A.jsx";
 import Button3A from "./Buttons/Button3/Button3A.jsx";
 import Button3B from "./Buttons/Button3/Button3B.jsx";
-import Button4A from "./Buttons/Button4/Button4A.jsx";
-import Button4B from "./Buttons/Button4/Button4B.jsx";
+import Button4 from "./Buttons/Button4/Button4.jsx";
 //
 import LineAreaChart from "./Graphs/LineAreaChart.jsx";
 import DonutChart from "./Graphs/DonutChart.jsx";
@@ -37,8 +36,7 @@ export {
   Button2B,
   Button3A,
   Button3B,
-  Button4A,
-  Button4B,
+  Button4,
   //
   LineAreaChart,
   DonutChart,
