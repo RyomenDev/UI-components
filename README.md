@@ -76,3 +76,8 @@
   <img src="https://github.com/user-attachments/assets/443a5516-bb45-4b18-b4d4-d1abf925498c" alt="Image" />
 </p>
 
+### PolarAreaChart
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/76fcde57-9fa7-439c-bccb-3d9d3e5c431f" alt="Image" />
+</p>
+
