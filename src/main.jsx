@@ -3,7 +3,8 @@ import SplashScreen from "./Advanced/containers/splashScreen/SplashScreen";
 import { StyleProvider } from "./Advanced/contexts/StyleContext.js";
 import { useLocalStorage } from "./Advanced/hooks/useLocalStorage";
 import { splashScreen } from "./Advanced/portfolio";
-// import Education from "./Advanced/containers/education/Education.jsx";
+import Education from "./Advanced/containers/education/Education.jsx";
+import WorkExperience from "./Advanced/containers/workExperience/WorkExperience";
 
 function App() {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -33,8 +34,10 @@ function App() {
             <SplashScreen />
           ) : (
             <>
-              Hii
-              {/* <Education /> */}
+              {/* Hii */}
+              <Education />
+              {/* <Projects /> */}
+              <WorkExperience/>
             </>
           )}
         </StyleProvider>
