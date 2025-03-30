@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import ExperienceImg from "./ExperienceImg";
 
 const Experience = ({ theme }) => {
+// const Experience = () => {
   return (
     <div className="experience-main">
       <div className="basic-experience">
@@ -16,23 +17,24 @@ const Experience = ({ theme }) => {
         >
           <div className="experience-heading-img-div">
             <ExperienceImg theme={theme} />
+            {/* <ExperienceImg /> */}
           </div>
           <div className="experience-heading-text-div">
             <h1
               className="experience-heading-text"
-              style={{ color: theme.text }}
+                style={{ color: theme.text }}
             >
               {experience.title}
             </h1>
             <h3
               className="experience-heading-sub-text"
-              style={{ color: theme.text }}
+                style={{ color: theme.text }}
             >
               {experience.subtitle}
             </h3>
             <p
               className="experience-header-detail-text subTitle"
-              style={{ color: theme.secondaryText }}
+                style={{ color: theme.secondaryText }}
             >
               {experience.description}
             </p>
