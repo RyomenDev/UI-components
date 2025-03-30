@@ -5,6 +5,8 @@ import { useLocalStorage } from "./Advanced/hooks/useLocalStorage";
 import { splashScreen } from "./Advanced/portfolio";
 import Education from "./Advanced/containers/education/Education.jsx";
 import WorkExperience from "./Advanced/containers/workExperience/WorkExperience";
+import ExperienceAccordion from "./Advanced/containers/experienceAccord/ExperienceAccording.jsx";
+// import Experience from "../pages/experience/Experience";
 
 function App() {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -37,7 +39,9 @@ function App() {
               {/* Hii */}
               <Education />
               {/* <Projects /> */}
-              <WorkExperience/>
+              <ExperienceAccordion/>
+              <WorkExperience />
+              {/* <Experience {...props} theme={this.props.theme} /> */}
             </>
           )}
         </StyleProvider>

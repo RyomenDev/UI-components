@@ -398,6 +398,14 @@ const twitterDetails = {
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
+const experience = {
+  title: "Experience",
+  subtitle: "Work, Internship and Volunteership",
+  description:
+    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  header_image_path: "experience.svg",
+};
+
 export {
   illustration,
   greeting,
@@ -417,4 +425,5 @@ export {
   twitterDetails,
   isHireable,
   resumeSection,
+  experience,
 };
