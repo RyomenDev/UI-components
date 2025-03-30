@@ -406,6 +406,13 @@ const experience = {
   header_image_path: "experience.svg",
 };
 
+const projectsHeader = {
+  title: "Projects",
+  description:
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+  avatar_image_path: "projects_image.svg",
+};
+
 export {
   illustration,
   greeting,
@@ -426,4 +433,5 @@ export {
   isHireable,
   resumeSection,
   experience,
+  projectsHeader,
 };
