@@ -54,9 +54,10 @@ import { splashScreen } from "./Advanced/portfolio";
 import Education from "./Advanced/containers/education/Education.jsx";
 import WorkExperience from "./Advanced/containers/workExperience/WorkExperience";
 import ExperienceAccordion from "./Advanced/containers/experienceAccord/ExperienceAccording.jsx";
-import ProjectsAccord from "./Advanced/containers/projectsAccord/Projects.jsx"
+import ProjectsAccord from "./Advanced/containers/projectsAccord/Projects.jsx";
 import { ThemeProvider } from "styled-components";
 import { chosenTheme } from "./Advanced/theme.js";
+import EducationAccord from "./Advanced/containers/educationAccord/EducationAccord.jsx";
 // import { GlobalStyles } from "./Advanced/global.js";
 
 function App() {
@@ -89,6 +90,7 @@ function App() {
             ) : (
               <>
                 {/* <GlobalStyles /> */}
+                <EducationAccord theme={chosenTheme} />
                 <Education theme={chosenTheme} />
                 {/* <Projects /> */}
                 <ExperienceAccordion theme={chosenTheme} />
