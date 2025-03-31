@@ -5,6 +5,7 @@ import Login2A from "./Login/Login2/Login2A";
 //
 import Card1A from "./Cards/Card1/Card1A";
 import Card1B from "./Cards/Card1/Card1B";
+// import Card2 from "./Cards/Card2/card2.jsx";
 //
 import Button1A from "./Buttons/Button1/Button1A.jsx";
 import Button1B from "./Buttons/Button1/Button1B.jsx";
@@ -31,6 +32,7 @@ export {
   //
   Card1A,
   Card1B,
+  //   Card2,
   //
   Button1A,
   Button1B,

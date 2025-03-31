@@ -1,29 +1,32 @@
-import {
-  Login1A,
-  Login1B,
-  Login2A,
-  Login2B,
-  //
-  Card1A,
-  Card1B,
-  //
-  Button1A,
-  Button1B,
-  Button2A,
-  Button2B,
-  Button3A,
-  Button3B,
-  Button4,
-  //
-  LineAreaChart,
-  DonutChart,
-  GradientLineChart,
-  HorizontalBarChart,
-  LineChart,
-  LineChartCurve,
-  RadarChart,
-  PolarAreaChart,
-} from "./components";
+// import {
+//   Login1A,
+//   Login1B,
+//   Login2A,
+//   Login2B,
+//   //
+//   Card1A,
+//   Card1B,
+//   //   Card2,
+//   //
+//   Button1A,
+//   Button1B,
+//   Button2A,
+//   Button2B,
+//   Button3A,
+//   Button3B,
+//   Button4,
+//   //
+//   LineAreaChart,
+//   DonutChart,
+//   GradientLineChart,
+//   HorizontalBarChart,
+//   LineChart,
+//   LineChartCurve,
+//   RadarChart,
+//   PolarAreaChart,
+// } from "./components";
+
+import Card2 from "./components/Cards/Card2"
 
 function App() {
   return (
@@ -34,6 +37,7 @@ function App() {
       {/* <Login2B/> */}
       {/* <Card1A /> */}
       {/* <Card1B /> */}
+      <Card2 />
       {/* <Button1A /> */}
       {/* <Button1B /> */}
       {/* <Button2A /> */}
@@ -49,7 +53,7 @@ function App() {
       {/* <LineChart /> */}
       {/* <LineChartCurve /> */}
       {/* <RadarChart /> */}
-      <PolarAreaChart />
+      {/* <PolarAreaChart /> */}
     </>
   );
 }
