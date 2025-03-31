@@ -1,5 +1,6 @@
 import { projectsData } from "./projects-data.js";
-import ProjectCard from "./project-card";
+// import ProjectCard from "./project-card";
+import ProjectCard from "./single-project.jsx";
 
 const Projects = () => {
   return (
